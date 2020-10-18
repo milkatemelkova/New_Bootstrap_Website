@@ -1,0 +1,76 @@
+.banner,
+.navbar,
+.offer,
+footer {
+  background-color: #1e202d;
+  color: #fff !important;
+}
+
+.subtitle {
+  color: #fafafa;
+  opacity: 0.9;
+}
+
+.subtitle i {
+  color: rgb(179, 157, 34);
+}
+
+.icon-size {
+  font-size: 5rem;
+
+}
+
+.navbar a {
+  color: #fff !important;
+
+}
+.navbar a:hover{
+color: red !important;
+padding-top: 5px;
+}
+
+
+
+
+
+.banner h1 {
+  font-size: 5rem;
+  color: gold;
+  font-family: cursive;
+}
+
+
+
+h1 {
+  font-size: 5rem;
+  color: #1e202d;
+
+  font-family: cursive;
+}
+
+/*Offer Section*/
+.offer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)),
+    url(Newsletter.jpg) center/cover no-repeat;
+}
+
+/*Progress Bar*/
+
+.progress-bar {
+  background-color: #1e202d;
+  opacity: 0.8;
+}
+
+
+/*Footer*/
+
+.social-icons i {
+  width: 60px;
+  color: red;
+  transition: all 0.5s;
+}
+
+.social-icons a:hover i {
+  transform: translateY(-10px);
+  color: gold;
+}
